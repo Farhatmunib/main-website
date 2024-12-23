@@ -1,0 +1,13 @@
+/* src/style.css */
+@font-face {
+    font-family: 'CustomFont';
+    src: url('./src/fonts/CustomFont-Regular.woff2') format('woff2'),
+         url('./src/fonts/CustomFont-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap; /* Font display swap is already set by Transfonter */
+  }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
